@@ -1,0 +1,1269 @@
+source,target
+Thing,activity
+Thing,agent
+Thing,work
+Thing,event
+amusement park attraction,water ride
+amusement park attraction,roller coaster
+sports season,motorsport season
+sports team season,national collegiate athletic association team season
+sports team season,baseball season
+athlete,canoeist
+athlete,national collegiate athletic association athlete
+athlete,lacrosse player
+athlete,horse rider
+infrastructure,launch pad
+route of transportation,waterway tunnel
+sport facility,golf course
+sports event,Grand Prix
+sports event,mixed martial arts event
+sports league,cricket league
+sports league,curling league
+sports league,polo league
+sports league,motorcycle racing league
+sports league,auto racing league
+sports league,softball league
+sports league,bowling league
+sports league,mixed martial arts league
+sports league,videogames league
+sports league,inline hockey league
+tournament,Women's Tennis Association tournament
+football league season,national football league season
+race track,racecourse
+project,research project
+sports season,sports team season
+sports team season,football league season
+sports team season,soccer club season
+actor,all actor
+actor,adult (pornographic) actor
+administrative region,clerical administrative region
+anatomical structure,lymph
+anatomical structure,muscle
+anatomical structure,vein
+anatomical structure,artery
+anatomical structure,bone
+anatomical structure,brain
+animal,amphibian
+animal,arachnid
+animal,bird
+architectural structure,tunnel
+architectural structure,amusement park attraction
+architectural structure,building
+artist,actor
+artist,comedian
+artist,comics creator
+athlete,badminton player
+athlete,handball player
+athlete,table tennis player
+athlete,poker player
+athlete,snooker player
+athlete,cyclist
+athlete,Gaelic games player
+athlete,rower
+athlete,volleyball player
+athlete,Australian rules football player
+athlete,baseball player
+athlete,basketball player
+athlete,bodybuilder
+athlete,boxer
+athlete,chess player
+broadcaster,all broadcaster
+broadcaster,broadcast network
+building,hotel
+building,restaurant
+building,shopping mall
+building,skyscraper
+building,castle
+cartoon,anime
+celestial body,asteroid
+chemical substance,chemical compound
+cleric,cardinal
+cleric,Christian Bishop
+coach,all coach
+coach,volleyball coach
+coach,american football coach
+coach,college coach
+comics character,animanga character
+company,all company
+company,law firm
+company,winery
+company,airline
+device,automobile engine
+educational institution,all educational institution
+educational institution,college
+eukaryote,animal
+Food,beverage
+Food,cheese
+infrastructure,airport
+mean of transportation,train
+mean of transportation,motorcycle
+mean of transportation,aircraft
+mean of transportation,automobile
+musical artist,all musical artist
+musical artist,classical music artist
+musical work,all musical work
+musical work,album
+musical work,artist discography
+natural place,valley
+natural place,glacier
+natural place,body of water
+natural place,cave
+organisation,all organisation
+organisation,Band
+organisation,broadcaster
+organisation,Comedy Group
+organisation,company
+periodical literature,all periodical literature
+person,businessperson
+person,ambassador
+person,architect
+person,artist
+person,astronaut
+person,athlete
+person,chef
+person,coach
+place,garden
+place,ski area
+place,architectural structure
+plant,cycad
+plant,moss
+plant,Gnetophytes
+plant,club moss
+politician,chancellor
+presenter,all presenter
+presenter,television host
+region,administrative region
+route of transportation,road junction
+route of transportation,road tunnel
+route of transportation,bridge
+Satellite,ArtificialSatellite
+scientist,all scientist
+scientist,entomologist
+municipality,city
+societal event,all societal event
+societal event,space mission
+species,archaea
+species,bacteria
+sport facility,race track
+sports league,tennis league
+sports league,volleyball league
+sports league,golf league
+sports league,australian football league
+sports league,handball league
+sports league,american football league
+sports league,baseball league
+sports league,basketball league
+sports league,canadian football league
+sports team,all sports team
+sports team,american football team
+station,train station
+stream,canal
+time period,year in spaceflight
+topical concept,fashion
+unit of work,project
+unit of work,case
+work,artwork
+writer,all writer
+writer,poet
+written work,all written work
+written work,book
+written work,comics
+activity,all activity
+activity,game
+agent,organisation
+agent,person
+anatomical structure,embryology
+anatomical structure,nerve
+animal,crustacean
+animal,fish
+animal,insect
+animal,mammal
+animal,mollusca
+animal,reptile
+architectural structure,infrastructure
+architectural structure,military structure
+artist,fashion designer
+artist,musical artist
+artist,painter
+athlete,cricketer
+athlete,figure skater
+athlete,golf player
+athlete,gridiron football player
+athlete,gymnast
+athlete,ice hockey player
+athlete,jockey (horse racer)
+athlete,martial artist
+athlete,motorsport racer
+athlete,netball player
+Biomolecule,enzyme
+Biomolecule,protein
+body of water,lake
+broadcaster,radio station
+building,historic building
+building,hospital
+building,library
+building,museum
+building,prison
+building,religious building
+cartoon,hollywood cartoon
+case,Legal Case
+celestial body,galaxy
+celestial body,planet
+chemical substance,mineral
+cleric,pope
+clerical administrative region,diocese
+comics,all comics
+comics,manga
+company,publisher
+company,record label
+device,information appliance
+educational institution,library
+eukaryote,fungus
+eukaryote,plant
+flowering plant,grape
+genre,music genre
+infrastructure,dam
+infrastructure,route of transportation
+mammal,race horse
+mean of transportation,locomotive
+mean of transportation,rocket
+motorsport racer,motorcycle rider
+motorsport racer,racing driver
+musical artist,instrumentalist
+name,given name
+natural place,crater
+natural place,mountain
+natural place,mountain pass
+natural place,mountain range
+olympics,olympic event
+organisation,educational institution
+organisation,government agency
+organisation,legislature
+organisation,military unit
+organisation,non-profit organisation
+organisation,political party
+organisation,public transit system
+periodical literature,magazine
+periodical literature,newspaper
+person,criminal
+person,economist
+person,engineer
+person,fictional character
+person,historian
+person,journalist
+person,judge
+person,military person
+person,model
+person,monarch
+person,mythological figure
+person,noble
+person,philosopher
+person,Playboy Playmate
+person,politician
+person,presenter
+person,religious
+place,historic place
+place,monument
+place,mountain
+place,natural place
+place,park
+place,populated place
+place,protected area
+plant,conifer
+plant,cultivar (cultivated variety)
+plant,fern
+plant,flowering plant
+plant,ginkgo
+plant,green alga
+politician,congressman
+politician,governor
+politician,member of parliament
+politician,president
+politician,prime minister
+populated place,continent
+populated place,country
+populated place,island
+populated place,region
+presenter,radio host
+race,cycling race
+race,horse race
+racing driver,Formula One racer
+racing driver,nascar driver
+route of transportation,σιδηρόδρομος
+route of transportation,σιδηροδρομική σήραγγα
+route of transportation,road
+scientist,medician
+societal event,convention
+societal event,Election
+societal event,film festival
+societal event,military conflict
+software,all software
+software,programming language
+species,eukaryote
+results of a sport competition,olympic result
+sports event,football match
+sports event,national football league event
+sports event,olympics
+sports event,race
+sports league,ice hockey league
+sports team,formula 1 team
+sports team,hockey team
+stream,river
+topical concept,genre
+tournament,golf tournament
+tower,lighthouse
+work,movie
+work,musical work
+work,radio program
+written work,periodical literature
+written work,play
+activity,sport
+athlete,rugby player
+athlete,skater
+athlete,skier
+athlete,swimmer
+athlete,tennis player
+body of water,stream
+broadcaster,television station
+celestial body,star
+cleric,saint
+educational institution,scuola
+event,all event
+event,societal event
+infrastructure,station
+Legal Case,Supreme Court of the United States case
+mean of transportation,ship
+mean of transportation,space shuttle
+mean of transportation,space station
+mean of transportation,spacecraft
+musical work,single
+musical work,song
+name,surname
+organisation,sports team
+Organisation member,Sports team member
+person,royalty
+person,scientist
+person,sports manager
+place,Site of Special Scientific Interest
+place,sport facility
+politician,senator
+populated place,municipality
+societal event,sports event
+sport facility,stadium
+sports league,rugby league
+sports league,soccer league
+sports team,rugby club
+sports team,soccer club
+tournament,soccer tournoment
+tournament,tennis tournament
+work,software
+work,television episode
+work,television show
+writer,screenwriter
+actor,voice actor
+anatomical structure,ligament
+architectural structure,tower
+architectural structure,venue
+artist,writer
+artist,photographer
+athlete,wrestler
+athlete,curler
+athlete,darts player
+athlete,squash player
+Biomolecule,gene
+British royalty,baronet
+criminal,all criminal
+criminal,murderer
+device,weapon
+educational institution,university
+infrastructure,power station
+natural place,volcano
+organisation,trade union
+person,beauty queen
+person,horse trainer
+place,wine region
+place,World Heritage Site
+politician,mayor
+municipality,town
+municipality,village
+software,video game
+sport facility,cricket ground
+sports event,tournament
+sports event,wrestling event
+sports league,all sports league
+sports league,lacrosse league
+sports league,field hockey league
+sports league,speedway league
+time period,year
+venue,theatre
+work,website
+work,written work
+work,television season
+gene,HumanGene
+gene,MouseGene
+GeneLocation,HumanGeneLocation
+GeneLocation,MouseGeneLocation
+sports team season,soccer league season
+administrative region,governmental administrative region
+architectural structure,arena
+architectural structure,gate
+architectural structure,Mill
+architectural structure,Noteworthy part of a building (facade, chimney, etc.)
+architectural structure,Pyramid
+architectural structure,shrine
+architectural structure,square
+architectural structure,zoo
+award,decoration
+award,Nobel Prize
+beverage,beer
+beverage,wine
+body of water,Ocean
+body of water,sea
+building,casino
+building,factory
+celestial body,constellation
+chemical substance,chemical element
+city,Capital
+city,Capital of region
+cleric,Christian Patriarch
+cleric,priest
+cleric,vicar
+clerical administrative region,deanery
+clerical administrative region,parish
+country,Historical country
+crater,lunar crater
+device,camera
+device,Instrument
+event,life cycle event
+genre,movie genre
+infrastructure,lock
+infrastructure,Port
+island,atoll
+mammal,dog
+monument,grave stone or grave monument
+monument,memorial
+natural place,archipelago
+natural place,Desert
+natural place,hot spring
+person function,political function
+person function,profession
+place,abbey
+place,cemetery
+place,Community
+place,country estate
+place,monastery
+place,ski resort
+populated place,agglomeration
+populated place,department
+populated place,Gated community
+populated place,Intercommunality
+populated place,Locality
+populated place,prefecture
+populated place,state
+populated place,Street
+populated place,territory
+region,Historical region
+region,natural region
+religious building,church
+religious building,mosk
+religious building,synagog
+religious building,temple
+municipality,city district
+municipality,Historical settlement
+sports event,cycling competition
+sports league,boxing league
+sports league,cycling league
+sports league,formula one racing
+sports league,paintball league
+sports league,radio-controlled racing league
+star,brown dwarf
+station,subway station
+time period,geological period
+time period,historical period
+time period,period of artistic style
+time period,prehistorical period
+time period,protohistorical period
+topical concept,Christian Doctrine
+topical concept,ideology
+topical concept,System of law
+topical concept,taxonomic group
+topical concept,type
+tower,Water tower
+power station,Nuclear Power plant
+Annotation,Reference
+camera,digital camera
+collection of valuables,Archive
+competition,contest
+department,overseas department
+district,Historical district
+document,file
+document,image
+document,sound
+family,Noble family
+governmental administrative region,district
+governmental administrative region,district water board
+governmental administrative region,micro-region
+governmental administrative region,municipality
+governmental administrative region,province
+governmental administrative region,regency
+governmental administrative region,borough
+image,moving image
+image,still image
+Instrument,Guitar
+Instrument,Organ
+life cycle event,personal event
+list,track list
+Mill,Treadmill
+Mill,Watermill
+Mill,Wind motor
+Mill,Windmill
+municipality,one-time municipality
+personal event,birth
+personal event,death
+personal event,divorce
+personal event,marriage
+province,Historical province
+public service,public service input
+public service,public service output
+Swarm,Globular Swarm
+Swarm,Open Swarm
+television personality,host
+territory,old territory
+type,Document Type
+type,Government Type
+wine,Controlled designation of origin wine
+launch pad,first launch date
+launch pad,last launch date
+waterway tunnel,opening date
+canoeist,birth date
+canoeist,death date
+Eurovision song contest entry,release date
+national collegiate athletic association athlete,birth date
+national collegiate athletic association athlete,death date
+horse rider,birth date
+horse rider,death date
+lacrosse player,birth date
+lacrosse player,death date
+inline hockey league,formation date
+mixed martial arts league,formation date
+mixed martial arts event,date
+research project,project end date
+research project,project start date
+tunnel,opening date
+adult (pornographic) actor,birth date
+adult (pornographic) actor,death date
+badminton player,birth date
+badminton player,death date
+comedian,birth date
+comedian,death date
+table tennis player,birth date
+table tennis player,death date
+poker player,birth date
+poker player,death date
+snooker player,birth date
+snooker player,death date
+comics creator,birth date
+comics creator,death date
+handball player,birth date
+handball player,death date
+rower,birth date
+rower,death date
+Gaelic games player,birth date
+Gaelic games player,death date
+volleyball player,birth date
+volleyball player,death date
+cyclist,birth date
+cyclist,death date
+bodybuilder,birth date
+bodybuilder,death date
+all actor,birth date
+all actor,death date
+chess player,birth date
+chess player,death date
+Australian rules football player,birth date
+Australian rules football player,death date
+boxer,birth date
+boxer,death date
+broadcast network,birth date
+broadcast network,first air date
+broadcast network,formation date
+broadcast network,last air date
+restaurant,founding date
+restaurant,added
+hotel,opening date
+hotel,closing date
+hotel,added
+skyscraper,building end date
+skyscraper,opening date
+skyscraper,building start date
+castle,demolition date
+castle,building end date
+shopping mall,opening date
+shopping mall,date of abandonment
+shopping mall,added
+basketball player,birth date
+basketball player,death date
+cardinal,birth date
+cardinal,death date
+volleyball coach,birth date
+volleyball coach,death date
+american football coach,birth date
+american football coach,death date
+law firm,closing date
+law firm,founding date
+law firm,birth date
+law firm,death date
+winery,birth date
+winery,death date
+airline,closing date
+airline,formation date
+airline,opening date
+airline,extinction date
+airline,founding date
+college,founding date
+building,added
+building,founding date
+building,building end date
+building,opening date
+building,building start date
+building,dissolved
+building,demolition date
+building,closing date
+building,date of abandonment
+building,destruction date
+building,birth date
+building,death date
+beverage,introduced
+Christian Bishop,birth date
+Christian Bishop,death date
+airport,building end date
+airport,building start date
+airport,date of abandonment
+airport,opening date
+dam,opening date
+dam,building start date
+dam,demolition date
+dam,birth date
+dam,death date
+college coach,birth date
+college coach,death date
+animal,foal date
+automobile,production start date
+automobile,production end date
+classical music artist,birth date
+classical music artist,death date
+aircraft,retired
+aircraft,introduction date
+aircraft,production start date
+aircraft,production end date
+artist discography,birth date
+body of water,date use
+body of water,date completed
+body of water,restore date
+body of water,date construction
+body of water,date act
+body of water,founding date
+body of water,birth date
+body of water,death date
+cricketer,birth date
+cricketer,death date
+Comedy Group,birth date
+Band,birth date
+Band,death date
+all broadcaster,last air date
+all broadcaster,first air date
+all broadcaster,birth date
+all broadcaster,formation date
+all broadcaster,founding date
+businessperson,birth date
+businessperson,death date
+all company,closing date
+all company,formation date
+all company,founding date
+all company,extinction date
+all company,opening date
+all company,birth date
+all company,death date
+all educational institution,added
+all educational institution,founding date
+all educational institution,closed
+all educational institution,closing date
+all educational institution,formation date
+all educational institution,building end date
+all educational institution,birth date
+ambassador,active years end date
+ambassador,active years start date
+ambassador,birth date
+ambassador,death date
+astronaut,birth date
+astronaut,death date
+architect,birth date
+architect,death date
+chef,birth date
+chef,death date
+all coach,birth date
+all coach,death date
+all criminal,birth date
+all criminal,death date
+economist,birth date
+economist,death date
+baseball player,active years end date
+baseball player,active years start date
+baseball player,birth date
+baseball player,death date
+baseball player,statistic year
+chancellor,active years end date
+chancellor,active years start date
+chancellor,birth date
+chancellor,death date
+cleric,birth date
+cleric,death date
+cleric,canonized date
+cleric,beatified date
+cleric,feast day
+cleric,suppredded date
+country,founding date
+country,dissolution date
+country,birth date
+country,death date
+television host,birth date
+television host,death date
+cycling race,date
+administrative region,population as of
+administrative region,founding date
+administrative region,birth date
+administrative region,death date
+road tunnel,closing date
+road tunnel,opening date
+road tunnel,building end date
+road tunnel,building start date
+bridge,closing date
+bridge,founding date
+bridge,opening date
+bridge,building start date
+bridge,demolition date
+bridge,building end date
+bridge,birth date
+bridge,death date
+congressman,active years end date
+congressman,active years start date
+congressman,birth date
+congressman,death date
+congressman,election date
+entomologist,birth date
+entomologist,death date
+city,founding date
+city,population as of
+space mission,landing date
+space mission,launch date
+convention,end date
+convention,start date
+convention,birth date
+volleyball league,formation date
+golf league,formation date
+american football league,formation date
+baseball league,formation date
+basketball league,formation date
+canadian football league,formation date
+american football team,formation date
+British royalty,birth date
+British royalty,death date
+train station,opening date
+canal,date use
+canal,date completed
+canal,restore date
+canal,date construction
+canal,date act
+project,project end date
+project,project start date
+case,argue date
+case,decide date
+artwork,birth date
+artwork,death date
+poet,birth date
+poet,death date
+all comics,first publication date
+all comics,last publication date
+book,publication date
+book,birth date
+book,death date
+all activity,publication date
+all activity,birth date
+all activity,death date
+album,record date
+album,release date
+album,birth date
+album,death date
+sport,birth date
+sport,death date
+game,publication date
+architectural structure,added
+architectural structure,founding date
+architectural structure,opening date
+architectural structure,closing date
+architectural structure,building end date
+architectural structure,building start date
+architectural structure,demolition date
+architectural structure,dissolved
+architectural structure,reopening date
+architectural structure,rebuilding date
+architectural structure,date of abandonment
+architectural structure,first launch date
+architectural structure,last launch date
+architectural structure,destruction date
+architectural structure,birth date
+architectural structure,death date
+mammal,foal date
+infrastructure,founding date
+infrastructure,opening date
+infrastructure,closing date
+infrastructure,building start date
+infrastructure,demolition date
+infrastructure,building end date
+infrastructure,rebuilding date
+infrastructure,date of abandonment
+infrastructure,first launch date
+infrastructure,last launch date
+infrastructure,birth date
+infrastructure,death date
+military structure,demolition date
+military structure,building end date
+fashion designer,birth date
+fashion designer,death date
+all organisation,closing date
+all organisation,formation date
+all organisation,founding date
+all organisation,first air date
+all organisation,added
+all organisation,birth date
+all organisation,extinction date
+all organisation,election date leader
+all organisation,last election date
+all organisation,last air date
+all organisation,opening date
+all organisation,death date
+all organisation,disbanded
+all organisation,closed
+all organisation,anniversary
+all organisation,dissolved
+all organisation,building end date
+painter,birth date
+painter,death date
+figure skater,birth date
+figure skater,death date
+golf player,birth date
+golf player,death date
+gymnast,birth date
+gymnast,death date
+jockey (horse racer),birth date
+jockey (horse racer),death date
+martial artist,birth date
+martial artist,death date
+netball player,birth date
+ice hockey player,birth date
+ice hockey player,death date
+gridiron football player,birth date
+gridiron football player,death date
+skater,birth date
+skater,death date
+skier,birth date
+skier,death date
+all musical artist,birth date
+all musical artist,death date
+historic building,added
+hospital,opening date
+hospital,added
+hospital,closing date
+radio station,first air date
+library,added
+library,founding date
+library,building end date
+prison,added
+religious building,added
+religious building,birth date
+religious building,death date
+museum,added
+museum,founding date
+museum,dissolved
+museum,building end date
+museum,birth date
+rugby player,birth date
+rugby player,death date
+Legal Case,argue date
+Legal Case,decide date
+pope,birth date
+pope,death date
+manga,first publication date
+manga,last publication date
+publisher,birth date
+publisher,death date
+publisher,founding date
+record label,founding date
+library,added
+library,founding date
+library,building end date
+saint,birth date
+saint,death date
+saint,canonized date
+saint,beatified date
+saint,feast day
+saint,suppredded date
+scuola,founding date
+scuola,closed
+scuola,closing date
+scuola,formation date
+scuola,birth date
+planet,discovery date
+race horse,foal date
+locomotive,restore date
+locomotive,retired
+locomotive,delivery date
+locomotive,rebuild date
+rocket,maiden flight
+rocket,final flight
+route of transportation,founding date
+route of transportation,opening date
+route of transportation,closing date
+route of transportation,building start date
+route of transportation,demolition date
+route of transportation,building end date
+route of transportation,date of abandonment
+route of transportation,rebuilding date
+route of transportation,birth date
+route of transportation,death date
+space shuttle,contract award
+space shuttle,first flight end date
+space shuttle,first flight start date
+space shuttle,last flight end date
+space shuttle,last flight start date
+motorcycle rider,birth date
+motorcycle rider,death date
+instrumentalist,birth date
+instrumentalist,death date
+ship,laying down
+ship,commissioning date
+ship,active years end date
+ship,completion date
+ship,decommissioning date
+ship,capture date
+ship,date of christening
+ship,date of acquirement
+ship,ship launched
+ship,maiden voyage
+ship,order date
+ship,recommissioning date
+ship,active years start date
+given name,birth date
+all societal event,date
+all societal event,end date
+all societal event,start date
+all societal event,birth date
+all societal event,landing date
+all societal event,launch date
+all societal event,death date
+song,record date
+song,release date
+song,publication date
+song,birth date
+song,death date
+legislature,election date leader
+legislature,last election date
+non-profit organisation,founding date
+non-profit organisation,birth date
+non-profit organisation,formation date
+government agency,extinction date
+government agency,formation date
+government agency,birth date
+military unit,disbanded
+military unit,anniversary
+military unit,founding date
+all sports league,formation date
+public transit system,closing date
+public transit system,opening date
+political party,extinction date
+political party,formation date
+political party,birth date
+magazine,date
+fictional character,birth date
+fictional character,death date
+newspaper,founding date
+newspaper,birth date
+engineer,birth date
+engineer,death date
+historian,birth date
+historian,death date
+all sports team,formation date
+all sports team,dissolved
+all sports team,birth date
+all sports team,death date
+journalist,birth date
+journalist,death date
+model,birth date
+model,death date
+mythological figure,birth date
+mythological figure,death date
+judge,active years end date
+judge,active years start date
+judge,birth date
+judge,death date
+monarch,birth date
+monarch,death date
+monarch,date of burial
+philosopher,birth date
+philosopher,death date
+Playboy Playmate,birth date
+Playboy Playmate,death date
+single,release date
+single,record date
+single,certification date
+all presenter,birth date
+all presenter,death date
+religious,birth date
+religious,death date
+noble,birth date
+noble,death date
+royalty,birth date
+royalty,death date
+all scientist,birth date
+all scientist,death date
+military person,birth date
+military person,death date
+monument,founding date
+sports manager,birth date
+sports manager,death date
+natural place,date use
+natural place,date completed
+natural place,restore date
+natural place,date construction
+natural place,date act
+natural place,founding date
+natural place,birth date
+natural place,death date
+historic place,added
+historic place,founding date
+historic place,birth date
+historic place,death date
+protected area,founding date
+sport facility,building end date
+sport facility,opening date
+sport facility,building start date
+sport facility,date of abandonment
+sport facility,demolition date
+sport facility,rebuilding date
+sport facility,birth date
+governor,active years end date
+governor,active years start date
+governor,birth date
+governor,death date
+governor,election date
+president,active years end date
+president,active years start date
+president,birth date
+president,death date
+senator,active years end date
+senator,active years start date
+senator,birth date
+senator,death date
+senator,election date
+prime minister,active years end date
+prime minister,active years start date
+prime minister,birth date
+prime minister,death date
+island,population as of
+region,population as of
+region,founding date
+region,birth date
+region,death date
+radio host,birth date
+radio host,death date
+Formula One racer,birth date
+Formula One racer,death date
+nascar driver,birth date
+nascar driver,death date
+σιδηρόδρομος,closing date
+σιδηρόδρομος,opening date
+member of parliament,active years end date
+member of parliament,active years start date
+member of parliament,birth date
+member of parliament,death date
+σιδηροδρομική σήραγγα,closing date
+σιδηροδρομική σήραγγα,opening date
+σιδηροδρομική σήραγγα,rebuilding date
+medician,birth date
+medician,death date
+road,opening date
+road,date of abandonment
+road,building end date
+film festival,end date
+film festival,start date
+Election,start date
+military conflict,date
+military conflict,birth date
+military conflict,death date
+programming language,latest release date
+programming language,release date
+programming language,latest preview date
+sports event,date
+sports event,end date
+sports event,start date
+stadium,building end date
+stadium,opening date
+stadium,building start date
+stadium,date of abandonment
+stadium,demolition date
+stadium,rebuilding date
+stadium,birth date
+football match,date
+ice hockey league,formation date
+race,date
+soccer league,formation date
+formula 1 team,birth date
+formula 1 team,death date
+hockey team,formation date
+rugby club,birth date
+soccer club,formation date
+soccer club,dissolved
+soccer club,birth date
+eukaryote,foal date
+river,founding date
+river,birth date
+river,death date
+lighthouse,building end date
+radio program,birth date
+soccer manager,birth date
+soccer manager,death date
+screenwriter,birth date
+screenwriter,death date
+all periodical literature,date
+all periodical literature,founding date
+all periodical literature,birth date
+play,premiere date
+all software,latest release date
+all software,release date
+all software,latest preview date
+populated place,founding date
+populated place,population as of
+populated place,dissolution date
+populated place,day
+populated place,birth date
+populated place,death date
+movie,release date
+movie,birth date
+swimmer,birth date
+swimmer,death date
+stream,date use
+stream,date completed
+stream,restore date
+stream,date construction
+stream,date act
+stream,founding date
+stream,birth date
+stream,death date
+tennis player,birth date
+tennis player,death date
+tennis player,active years end date
+tennis player,active years start date
+Supreme Court of the United States case,argue date
+Supreme Court of the United States case,decide date
+tennis tournament,end date
+tennis tournament,start date
+television station,last air date
+television station,first air date
+television station,formation date
+television station,birth date
+television station,founding date
+station,closing date
+station,opening date
+station,rebuilding date
+voice actor,birth date
+voice actor,death date
+television episode,publication date
+television episode,release date
+tower,building end date
+venue,closing date
+venue,opening date
+venue,reopening date
+venue,demolition date
+venue,rebuilding date
+photographer,birth date
+photographer,death date
+municipality,founding date
+municipality,population as of
+municipality,day
+municipality,death date
+municipality,birth date
+all event,date
+all event,end date
+all event,start date
+all event,birth date
+all event,landing date
+all event,launch date
+all event,death date
+curler,birth date
+curler,death date
+squash player,birth date
+squash player,death date
+darts player,birth date
+darts player,death date
+murderer,birth date
+murderer,death date
+wrestler,debut
+wrestler,birth date
+wrestler,death date
+baronet,birth date
+baronet,death date
+power station,opening date
+power station,closing date
+power station,building start date
+trade union,formation date
+horse trainer,birth date
+horse trainer,death date
+university,founding date
+university,closed
+university,formation date
+university,birth date
+beauty queen,birth date
+beauty queen,death date
+mayor,active years end date
+mayor,active years start date
+mayor,birth date
+mayor,death date
+village,founding date
+village,population as of
+village,birth date
+village,death date
+town,founding date
+town,population as of
+tournament,end date
+tournament,start date
+wrestling event,date
+website,birth date
+theatre,closing date
+theatre,opening date
+theatre,reopening date
+theatre,demolition date
+theatre,rebuilding date
+television season,first air date
+television show,completion date
+television show,release date
+television show,birth date
+video game,release date
+video game,latest release date
+all written work,date
+all written work,founding date
+all written work,premiere date
+all written work,publication date
+all written work,first publication date
+all written work,last publication date
+all written work,birth date
+all written work,death date
+all writer,birth date
+all writer,death date
+all musical work,release date
+all musical work,record date
+all musical work,certification date
+all musical work,publication date
+all musical work,birth date
+all musical work,death date
+time period,active years end date
+time period,active years start date

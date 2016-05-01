@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>TimeWOD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+
+    <!-- Custom CSS -->
+    <!-- <link href="css/simple-sidebar.css" rel="stylesheet"> -->
+    <link href="css/tree-menu.css" rel="stylesheet">
+    <link href="css/timeseries.css" rel="stylesheet">
+    <style type="text/css">
+        #slides .page:nth-child(1) {
+          z-index: 2000;
+        }
+        #slides .page:nth-child(2) {
+          z-index: 1999;
+        }
+
+      .page {
+        width: 100%;
+        position: absolute;
+        height: 0;
+        overflow: hidden;
+        
+        -webkit-transition: height 0.9s ease;
+        -moz-transition: height 0.9s ease;
+        -o-transition: height 0.9s ease;
+        transition: height 0.9s ease;
+
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+      .page.active {
+        height: 100%;
+      }
+      .page .next {
+        position: absolute;
+        bottom:40px;
+        height:60px;
+        width: 100%;
+        text-align: center;
+      }
+      .page .next a {
+        color:inherit;
+        font-size: 60px;
+      }
+      .page .next a:hover {
+        color:#000;
+      }
+      .page.gold .next a:hover {
+        color:black;
+      }
+      .page h1 {
+        font-size:40px;
+        font-weight: 700;
+        text-align: center;
+        color:inherit;
+
+        height: 50px;
+        position: relative;
+        top: 45%;
+        transform:translateY(-55%);
+
+        margin:0 10%;
+      }
+
+      .page.blue {
+        background-color: steelblue;
+        color:#fff;
+      }
+
+      #slides.last #p1 {
+        overflow: visible;
+      }
+        .add-btn
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            margin: auto;
+        }
+        #loading{
+          margin-top: 100px;
+        }
+        #error{
+          margin-top: 100px;
+        }
+        #page-content-wrapper{
+            float: left;
+           /* margin-top: 50px;*/
+        }
+        #sidebar-wrapper-right{
+            width: 250px;
+           /* margin-top: 50px;*/
+            float: left;
+            right:0;
+            z-index: 1000;
+            position: fixed;
+            overflow-y: auto;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        .dropdown{
+           z-index: 1001;
+        }
+        #timeline,#timeline-slider {s
+            width: 100%;
+        } 
+        .glyphicon-refresh-animate {
+            -animation: spin .7s infinite linear;
+            -webkit-animation: spin2 .7s infinite linear;
+        }
+
+        @-webkit-keyframes spin2 {
+            from { -webkit-transform: rotate(0deg);}
+            to { -webkit-transform: rotate(360deg);}
+        }
+
+        @keyframes spin {
+            from { transform: scale(1) rotate(0deg);}
+            to { transform: scale(1) rotate(360deg);}
+        }
+
+
+        </style>
+</head>
+
+<body>
+  <div id="slides">
+    <div id="p0" class="page active blue">
+      <h1>TimeWOD extracts and represents millions of data from DBpedia Knowledge Base using timelines.</h1>
+      <div class="next"><a href="#"><i class="fa fa-chevron-down"></i></a></div>
+    </div>
+    <div id="p1" class="page active">
+        <!-- <div> -->
+           <nav class="navbar navbar-inverse">
+               <div class="container-fluid">
+                <a class="navbar-brand" href="#">TimeWOD</a>
+                    <div class="nav navbar-nav add-btn">
+                     <button class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#search-modal">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Timeline
+                     </button>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demo <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#" onclick="ex1Query()"><p class="text-primary">Ex1.Timeline of <i>Louis C.K.(Comedian)</i></p></a></li>
+                          <!-- <li role="separator" class="divider"></li> -->
+                          <li><a href="#" onclick="ex2Query()">
+                            <p class="text-primary">Ex2.Timelines of <i>movies released in 1978</i></p></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>         
+             </nav> 
+        <!-- </div> -->
+            
+            <!-- overlay form-->
+            <!-- Large modal -->  
+            <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title">Add Timelines</h5>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                         <!-- <div id="error" class="alert alert-danger" role="alert" style="display:none">
+                            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                            <span id="err_message"></span>
+                          </div> -->
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Search By DBpedia URL</h3>
+                              </div>
+                              <div class="panel-body"  id="url-search">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" id="dburl" placeholder="e.g. http://dbpedia.org/page/Louis_C.K.">
+                                      <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="button" onclick="urlQuery()">Add</button>
+                                      </span>
+                                    </div><!-- /input-group -->
+                                  </div><!-- /.col-lg-6 -->
+                                </div><!-- /.row -->
+                            </div><!-- /.panel-body-->
+                        </div><!-- /.panel-->
+                         <!-- <p></p> -->
+                        </div> 
+                        <div class="col-md-6">
+                            <div class="panel panel-default" >
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Search By DBpedia Class</h3>
+                              </div>
+                              <div class="panel-body">
+                                <button class="btn btn-primary disabled" id="classBtn" style="float:right" onclick="classQuery()">Add</button>
+                                <h5 class="text-info">1.Choose a time duration</h5>
+                                <h5 class="text-success">Time Duration:<span id="timeSelected"></span></h5>
+                                <div id="panel-slider"></div>
+                                <h5 class="text-info">2.Choose a DBpedia Class with a time property</h5>
+                                <h5 class="text-success">Class: <span id="classSelected"></span></h5>
+                                 <h5 class="text-success">Time Property: <span id="propSelected"></span></h5>
+                                <div id="class-search"></div>    
+                            </div><!-- /.panel-body-->
+                        </div><!-- /.panel-->
+                        </div>   
+                      </div>      
+                    </div>
+                  </div>
+               <!--    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add Timline</button>
+                  </div> -->
+                </div>
+              </div>
+            </div><!--end model-->
+             
+            <!-- Loading modal -->
+            <div class="modal fade" id="loading" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="text-center">
+                        <button class="btn btn-block btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Query Results...</button>
+                    </div>
+                </div>
+              </div>
+            </div> <!--end Loading modal -->
+             <!-- Error modal -->
+            <div class="modal fade" id="error" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content" style="height:74px">
+                    <div class="text-center">
+                        <div class="alert alert-danger" role="alert" >
+                            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                            <span id="err_message"></span>
+                          </div>
+                    </div>
+                </div>
+              </div>
+            </div> <!--end error modal -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <!-- <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14" data-slider-orientation='vertical'/> -->
+            <div class="container">
+                <div id="timeline-slider"></div>
+            </div>
+            <div class="container">
+                <div id="timeline"></div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <div id="sidebar-wrapper-right">
+             <div id="mode" class="text-center" style="display:none">
+                      <div id="mode" class="btn-group navbar-btn">
+                          <button type="button" class="btn btn-default" id="single">
+                             <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                          </button>
+                          <button type="button" class="btn btn-default active" id="multiple"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+                        </div>
+                </div>
+             <div id="legend"></div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/lib/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/bootstrap-slider.js"></script>
+    <!-- d3.js-->
+    <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+    <script src="js/lib/d3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="js/item-prop.js"></script>
+    <script src="js/tree-menu.js"></script>
+    <script src="js/timeseries.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/legend.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Menu Toggle Script -->
+    <script>
+   
+      d3.select("#slides")
+          .selectAll(".next")
+            .select("a")
+              .on("click",function(d,i){
+                d3.event.preventDefault();
+                
+                d3.select("#slides #p"+i)
+                  .classed("active",false)
+
+                d3.select("#slides").classed("last",i==1)
+              })
+    </script>  
+</body>
+
+</html>
+
+
